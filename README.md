@@ -39,7 +39,7 @@ src/main/resources/
 ## ⚙️ Cài đặt & Chạy thử
 ### 1. Clone project
 ```bash
-git clone https://github.com/your-username/finance_manager_plan_backend.git
+git clone https://github.com/finance_management_plan_backend/finance_manager_plan_backend.git
 cd finance_manager_plan_backend
 ```
 ### 2. Cấu hình database & email
