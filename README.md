@@ -67,4 +67,4 @@ java -jar target/finance_manager_plan_backend-0.0.1-SNAPSHOT.jar
 Mọi đóng góp, báo lỗi hoặc ý tưởng mới đều được hoan nghênh! Hãy tạo Pull Request hoặc Issue.
 
 ---
-**Bản quyền © 2024 [Tên của bạn hoặc nhóm]** 
+**Bản quyền © 2024 Nguyen Quoc Anh** 
