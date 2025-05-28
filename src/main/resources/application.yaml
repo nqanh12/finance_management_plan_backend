@@ -6,7 +6,7 @@ spring:
   datasource:
     url: jdbc:postgresql://ep-damp-band-a15ee45l-pooler.ap-southeast-1.aws.neon.tech/finance_manager?sslmode=require
     username: neondb_owner
-    password: npg_2xugCydMN4sD
+    password: *************
     driver-class-name: org.postgresql.Driver
   jpa:
     open-in-view: false
@@ -20,7 +20,7 @@ spring:
     host: smtp.gmail.com
     port: 587
     username: nqanh120503@gmail.com
-    password: tpppddxidfizjmis
+    password: ************
     properties:
       mail:
         smtp:
