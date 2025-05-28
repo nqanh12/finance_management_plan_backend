@@ -1,6 +1,7 @@
 package com.quocanh.finance_manager_plan_backend.mapper;
 
 import com.quocanh.finance_manager_plan_backend.dto.request.BudgetDTO;
+import com.quocanh.finance_manager_plan_backend.dto.response.BudgetResponse;
 import com.quocanh.finance_manager_plan_backend.entity.Budgets;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
@@ -14,4 +15,8 @@ public interface BudgetMapper {
     @Mapping(target = "user.id", source = "userId")
     @Mapping(target = "category.id", source = "categoryId")
     Budgets toEntity(BudgetDTO budgetDTO);
+
+    @Mapping(target = "categoryName", source = "category.name")
+    @Mapping(target = "userName", source = "user.fullName")
+    BudgetResponse toResponse(Budgets budget);
 } 

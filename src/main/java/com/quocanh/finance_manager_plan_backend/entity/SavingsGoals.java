@@ -29,6 +29,9 @@ public class SavingsGoals {
     @Column(name = "current_amount", nullable = false, precision = 15, scale = 2)
     BigDecimal currentAmount = BigDecimal.ZERO;
 
+    @Column(name = "monthly_contribution", nullable = false, precision = 15, scale = 2)
+    BigDecimal monthlyContribution;
+
     @Temporal(TemporalType.DATE)
     @Column(name = "start_date", nullable = false)
     Date startDate;
